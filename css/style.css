@@ -1,0 +1,51 @@
+body {
+  background: #dee2ed;
+  cursor: pointer;
+  font-size: 120%;
+  font-family: Arial;
+  color: #136EFF;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+div, canvas {
+  position: absolute;
+  left: 0;
+}
+
+#text {
+  display: none;
+  top: 60%;
+  z-index: 200;
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  top: 50%;
+  opacity: 0.9
+}
+
+#tort {
+max-width: 100%;
+height: auto;
+}
+
+#example {
+top: 5%;
+margin-left: auto;
+margin-right: auto;
+texy-align: center;
+height: 35%;
+}
+#example{padding:0px 0px 0px 100px;display:none;}
+#example .new{opacity: 0;}
+#example .div_opacity{
+  -webkit-transition: opacity .1s ease-in-out;
+  -moz-transition: opacity .1s ease-in-out;
+  -ms-transition: opacity .1s ease-in-out;
+  -o-transition: opacity .1s ease-in-out;
+  transition: opacity .1s ease-in-out;
+  opacity: 1;}
