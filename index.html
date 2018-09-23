@@ -24,7 +24,11 @@
   <canvas id="text" width="800" height="150"></canvas>
 
 <div id="html-text" class="text">
-  <img src="golyj-tort-1.png" id="tort">
+<picture>
+<source srcset="small-golyj-tort-1.png" media="(min-width: 480px)">
+<source srcset="large-golyj-tort-1.png" media="(min-width: 320px)">
+ <img src="golyj-tort-1.png" id="tort">
+ </picture>
 </div>
   <script src='js/pixi.min.js'></script>
 <script src='js/requestAnimationFrame.js'></script>
@@ -49,7 +53,7 @@ $(document).ready(function(){
  };
  $('#example').show();
  $('#example').animate_Text();
- $("body").animate({backgroundColor: '#000000'}, 14000);
+ $("body").animate({backgroundColor: '#000000'}, 20000);
 });
 
 </script
