@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Персональный сайт Вики и Паши</title>
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+		<!--[if IE]>
+			<link rel="stylesheet" type="text/css" href="ie.css" media="screen">
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="lightbox.css" media="screen">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
+		<script type="text/javascript" src="js/cufon-yui.js"></script>
+		<script type="text/javascript" src="js/Wonderland_normal_400.font.js"></script>
+		<script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+		
+		<!-- Cufon text replacement -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				Cufon.replace('#about .right ul li');
+				Cufon.replace('h2', { textShadow: '0 2px rgba(0, 0, 0, 0.15)' });
+				Cufon.replace('#social .right a', {hover:true});
+				Cufon.replace('#work .left h3', {hover:true});
+				Cufon.replace('h3', { textShadow: '0 2px rgba(0, 0, 0, 0.15)' });
+				Cufon.replace('#contactinfo'), {hover:true};
+			});
+		</script>
+		
+		<!-- jQuery lightbox -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#work .right a').lightBox();
+			});
+		</script>
+		
+		<!-- Navigation and Content effects -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.page').hide();
+				$('#navigation li:first').addClass('active').show();
+				$('.page:first').show();
+				
+				$('#navigation li').click(function(){
+					$('#navigation li').removeClass('active');
+					$(this).addClass('active');
+					
+					$('.page').hide();
+					var activeTab = $(this).find('a').attr('href');
+					$(activeTab).fadeIn('slow');
+					return false;
+				});
+			});
+		</script>
+
+	</head>
+	<body>
+		<div id="pagewrap">
+			
+			<!-- Site header and navigation -->
+			<div id="header">
+				<ul id="navigation">
+					<li><a class="about" href="#about"><img src="images/icon-about.gif" alt="О нас"></a></li>
+					<li><a class="work" href="#work"><img src="images/icon-work.gif" alt="Фотки">Фотки</a></li>
+					<li><a class="contact" href="#contact"><img src="images/icon-contact.gif" alt="Где мы ?"></a></li>
+				</ul>
+			</div>
+			
+			<!-- Site content -->
+
+			<div id="content">
+				<div id="about" class="page">
+					<div class="left">
+						<img src="images/author-photo.png" alt="photo">
+					</div>
+					<div class="right">
+						<h2>Всем Привет ! </h2>
+						<p>Нас зовут Вика и Паша. Ну и конечно есть ещё наше солнышко - Миша :)
+						Это наш сайт и попробуйте только сказать, что он вам не нравится !
+						Чем мы занимаемся ? Мы Живем, мы Любим и мы Ростем, и материально конечно тоже.</p>
+						<h3>Наши будущие приобретения:</h3>
+						<ul>
+							<li><img src="images/icon-print.gif" alt="Летающая Тесла">Теслу</li>
+							<li><img src="images/icon-webdesign.gif" alt="Замок в Ирландии">Замок</li>
+							<li><img src="images/icon-development.gif" alt="Двойню">Двойню !</li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="work" class="page">
+					<div class="left">
+						<img src="images/image-feature.jpg" alt="Мы классные, правда ?">
+						<h3>Улыбайтесь :) !</h3>
+					
+						Мы классные, правда ?
+						
+					</div>
+					<div class="right">
+						<p>Что рассказывать, смотрите и завидуйте :)</p>
+						<h3>Мы все:</h3>
+						
+						<ul id="work01">
+							<li><a href="images/image01.jpg"><img src="images/logo01.jpg" alt="Cмотрите и завидуйте :)"></a></li>
+							<li><a href="images/image02.jpg"><img src="images/logo02.jpg" alt="Cмотрите и завидуйте :)"></a></li>
+							<li><a href="images/image03.jpg"><img src="images/logo03.jpg" alt="Cмотрите и завидуйте :)"></a></li>
+							<li><a href="images/image04.jpg"><img src="images/logo04.jpg" alt="Cмотрите и завидуйте :)"></a></li>
+						</ul>
+						
+						<h3>Глава семейства:</h3>
+
+						<ul id="work02">
+							<li><a href="images/image05.jpg"><img src="images/web01.jpg" alt="Мы ростём !"></a></li>
+							<li><a href="images/image06.jpg"><img src="images/web02.jpg" alt="Мы ростём !"></a></li>
+							<li><a href="images/image07.jpg"><img src="images/web03.jpg" alt="Мы ростём !"></a></li>
+							<li><a href="images/image08.jpg"><img src="images/web04.jpg" alt="Мы ростём !"></a></li>
+						</ul>
+					</div>
+				</div>
+	
+				
+				<div id="contact" class="page">
+					<div class="left">
+
+		
+						<img src="images/con.jpg" alt="Море...">
+						
+					</div>
+					<div class="right">
+						<p>Где нас найти ? Как и все порядочные одесситы, мы живем возле моря, чего и вам желаем :) </p>
+						<p>А искать нас не нужно, если захотим - сами кого хочешь найдём !</p>
+						
+						
+					</div>
+				</div>
+			</div>
+
+
+			<div id="footer">
+				<p>Разработка - <a href="https://m.facebook.com/linuxforse">Александр Галицкий</a>
+				</p>
+			</div>
+			
+		</div>
+	</body>
+</html>
