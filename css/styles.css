@@ -35,7 +35,7 @@ height: auto;
 
 /*================Media Queries=================*/
 
-@media (min-width: 320px) {
+@media only scree(max-width: 320px) {
     
 #main {
 display: -webkit-inline-flex;
