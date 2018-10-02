@@ -13,20 +13,59 @@ display: flex;
 #one {
 -webkit-flex-grow: 1;
 flex-grow: 1;
+padding: 5px;
 }
 
 #two {
 -webkit-flex-grow: 1;
 flex-grow: 1;
+padding: 5px;
 }
 
 #three {
 -webkit-flex-grow: 1;
 flex-grow: 1;
+padding: 5px;
 }
 
 #happymain {
-max-width: 100%;
+max-width: 95%;
 height: auto;
+}
+
+/*================Media Queries=================*/
+
+@media only screen and (min-width: 480px) {
+    
+#main {
+display: -webkit-inline-flex;
+display: flex;
+
+ -webkit-flex-direction: column;
+ flex-direction: column;
+
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+}
+
+#one {
+-webkit-flex-grow: 1;
+flex-grow: 1;
+padding: 5px;
+}
+
+#two {
+-webkit-flex-grow: 1;
+flex-grow: 1;
+padding: 5px;
+}
+
+#three {
+-webkit-flex-grow: 1;
+flex-grow: 1;
+padding: 5px;
+}
+
 }
 
