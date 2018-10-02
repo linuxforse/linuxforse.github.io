@@ -28,14 +28,14 @@ flex-grow: 1;
 padding: 5px;
 }
 
-#happymain {
-max-width: 95%;
+#img {
+max-width: 100%;
 height: auto;
 }
 
 /*================Media Queries=================*/
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
     
 #main {
 display: -webkit-inline-flex;
