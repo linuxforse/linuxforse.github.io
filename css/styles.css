@@ -8,6 +8,8 @@ display: flex;
   -webkit-justify-content: space-around;
   justify-content: space-around;
 
+ top: 5%;
+
 }
 
 #one {
@@ -53,7 +55,7 @@ justify-content: space-around;
  
 align-items: center;
 
-align-content: center;
+align-content:  space-around;
 
 }
 
