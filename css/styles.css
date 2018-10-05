@@ -29,13 +29,13 @@ padding: 5px;
 }
 
 img {
-max-width: 95%;
+max-width: 90%;
 height: auto;
 }
 
 img:hover {
 border: 3px solid #348CFA;
-max-width: 99%;
+max-width: 93%;
 height: auto;
 }
 
@@ -84,6 +84,6 @@ height: auto;
 
 img:hover {
 border: 3px solid #348CFA;
-max-width: 90%;
+max-width: 85%;
 height: auto;
 
