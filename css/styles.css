@@ -28,7 +28,7 @@ flex-grow: 1;
 padding: 5px;
 }
 
-#img {
+img {
 max-width: 95%;
 height: auto;
 }
@@ -44,8 +44,11 @@ display: flex;
  -webkit-flex-direction: column;
  flex-direction: column;
 
-  -webkit-justify-content: space-around;
+ -webkit-justify-content: space-around;
   justify-content: space-around;
+
+ -webkit-align-content: center;
+ align-content: center;
 
 }
 
@@ -66,6 +69,10 @@ padding: 5px;
 flex-grow: 1;
 padding: 5px;
 }
+
+img {
+max-width: 80%;
+height: auto;
 
 }
 
