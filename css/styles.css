@@ -3,6 +3,7 @@ display: block;
 
  width: 99%;
  top: 5%;
+ margin: auto;
 
 }
 
@@ -10,21 +11,21 @@ display: block;
 width:32%;
 padding: 5px;
 float: left;
-margin: 0 auto ;
+margin: auto ;
 }
 
 #two {
 width:32%;
 padding: 5px;
 float: left;
-margin: 0 auto;
+margin: auto;
 }
 
 #three {
 width: 32%;
 padding: 5px;
 float: left;
-margin: 0 auto;
+margin: auto;
 }
 
 img {
