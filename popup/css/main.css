@@ -1,0 +1,338 @@
+#b {
+
+	background-size: cover;
+}
+
+#vexmain {
+	display: block;
+ 	width: 99%;
+ 	top: 5%;
+ 	margin: auto;
+}
+
+#vexone {
+width:32%;
+padding: 5px;
+float: left;
+margin: auto ;
+}
+
+#vextwo {
+width:32%;
+padding: 5px;
+float: left;
+margin: auto;
+}
+
+#vexthree {
+width: 32%;
+padding: 5px;
+float: left;
+margin: auto;
+}
+
+#vexconfcenter {
+  position: relative;
+  height: 2.5vw;
+  display: block;
+  margin: 30px auto;
+  padding: 0;
+  font-size: 2vw				;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  
+  transition: background-color .3s;
+}
+
+#vexconfcenter:hover, #vexconfcenter:focus {
+  background-color: #27ae60;
+}
+
+#vexconfcenter > * {
+  position: relative;
+}
+
+#vexconfcenter span {
+  display: block;
+  padding: 12px 24px;
+}
+
+#vexconfcenter:before {
+  content: "";
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  display: block;
+  width: 0;
+  padding-top: 0;
+    
+  border-radius: 100%;
+  
+  background-color: rgba(236, 240, 241, .3);
+  
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#vexconfcenter:active:before {
+  width: 120%;
+  padding-top: 120%;
+  
+  transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+/* Styles, not important */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+#vexalertcenter {
+  position: relative;
+  height: 2.5vw;
+  display: block;
+  margin: 30px auto;
+  padding: 0;
+  font-size: 2vw				;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  
+  transition: background-color .3s;
+}
+
+#vexalertcenter:hover, #vexalertcenter:focus {
+  background-color: #27ae60;
+}
+
+#vexalertcenter > * {
+  position: relative;
+}
+
+#vexalertcenter span {
+  display: block;
+  padding: 12px 24px;
+}
+
+#vexalertcenter:before {
+  content: "";
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  display: block;
+  width: 0;
+  padding-top: 0;
+    
+  border-radius: 100%;
+  
+  background-color: rgba(236, 240, 241, .3);
+  
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#vexalertcenter:active:before {
+  width: 120%;
+  padding-top: 120%;
+  
+  transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+/* Styles, not important */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+#vexpromptfooter {
+  position: relative;
+  height: 2.5vw;
+  display: block;
+  margin: 30px auto;
+  padding: 0;
+  font-size: 2vw				;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  
+  transition: background-color .3s;
+}
+
+#vexpromptfooter:hover, #vexpromptfooter:focus {
+  background-color: #27ae60;
+}
+
+#vexpromptfooter > * {
+  position: relative;
+}
+
+#vexpromptfooter span {
+  display: block;
+  padding: 12px 24px;
+}
+
+#vexpromptfooter:before {
+  content: "";
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  display: block;
+  width: 0;
+  padding-top: 0;
+    
+  border-radius: 100%;
+  
+  background-color: rgba(236, 240, 241, .3);
+  
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#vexpromptfooter:active:before {
+  width: 120%;
+  padding-top: 120%;
+  
+  transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+/* Styles, not important */
+*, *:before, *:after {
+  box-sizing: border-box;
+  }
+
+
+
+@supports (display: flex) {
+
+#vexmain {
+display: -webkit-inline-flex;
+display: flex;
+
+ -webkit-flex-direction: row;
+ flex-direction: row;
+
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+ top: 5%;
+
+}
+
+#vexone {
+-webkit-flex-grow: 1;
+flex-grow: 1;
+padding: 5px;
+}
+
+#vextwo {
+-webkit-flex-grow: 1;
+flex-grow: 1;
+padding: 5px;
+}
+
+#vexthree {
+-webkit-flex-grow: 1;
+flex-grow: 1;
+padding: 5px;
+}
+
+
+
+/*================Media Queries=================*/
+
+@media only screen and (max-width: 768px) {
+    
+#vexmain {
+display: -webkit-inline-flex;
+display: flex;
+
+flex-direction: column;
+
+justify-content: space-around;
+ 
+align-items: center;
+
+}
+
+#vexconfcenter {
+  height: 15vw;
+  display: block;
+  margin: 30px auto;
+  padding: 0;
+  font-size: 5vw
+  }
+
+  #vexalertcenter {
+  height: 15vw;
+  display: block;
+  margin: 30px auto;
+  padding: 0;
+  font-size: 5vw
+}
+
+#vexpromptfooter {
+  height: 15vw;
+  display: block;
+  margin: 30px auto;
+  padding: 0;
+  font-size: 5vw
+ }
+
+#vexone {
+-webkit-flex-grow: 1;
+flex-grow: 1;
+padding: 5px;
+}
+
+#vextwo {
+-webkit-flex-grow: 1;
+flex-grow: 1;
+padding: 5px;
+}
+
+#vexthree {
+-webkit-flex-grow: 1;
+flex-grow: 1;
+padding: 5px;
+}
+
+
+
+
+}
+
