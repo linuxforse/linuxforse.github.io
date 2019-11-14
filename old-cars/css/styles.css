@@ -43,8 +43,14 @@ body {
 	animation: animLoader 0.8s linear infinite forwards;
 }
 
-@keyframes animLoader {
-	to { transform: rotate(360deg); }
+.grid--type-b{
+	display: none;
+	visibility: hidden;
+}
+
+.grid--type-c {
+	display: none;
+	visibility: hidden;
 }
 
 a {
@@ -179,20 +185,7 @@ height: auto;
 
 
 
-@keyframes octocat-wave {
-	0%,
-	100% {
-		transform: rotate(0);
-	}
-	20%,
-	60% {
-		transform: rotate(-25deg);
-	}
-	40%,
-	80% {
-		transform: rotate(10deg);
-	}
-}
+
 
 @media (max-width:500px) {
 	
@@ -306,6 +299,10 @@ height: auto;
 	width: 100%;
 	pointer-events: none;
 	opacity: 0;
+	display: none;
+	visibility: hidden;
+}
+
 }
 
 .js .grid--loading::before,
