@@ -43,15 +43,7 @@ body {
 	animation: animLoader 0.8s linear infinite forwards;
 }
 
-.grid--type-b{
-	display: none;
-	visibility: hidden;
-}
 
-.grid--type-c {
-	display: none;
-	visibility: hidden;
-}
 
 a {
 	text-decoration: none;
