@@ -42,7 +42,12 @@ height: auto;
 }
 
 
-
+#foot {
+botton: 1px;
+left:auto;
+right:auto;
+ 
+}
 
 @supports (display: flex) {
 
