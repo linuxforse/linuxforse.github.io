@@ -46,7 +46,7 @@ height: auto;
 botton: 1px;
 left:auto;
 right:auto;
- 
+display: none;
 }
 
 @supports (display: flex) {
